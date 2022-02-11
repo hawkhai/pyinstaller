@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{78c88d86-ee98-439f-8e1c-b7123458c939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{2eff6a0a-f72a-4cfa-a8b6-2e340aa7084d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_archive.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_exception_dialog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_global.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_launch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_path.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_python.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_pythonlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_splash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_splashlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pyi_win32_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\ioapi.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\unzip.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\mkdtemp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_archive.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_exception_dialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_launch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_path.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_python.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_pythonlib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_splash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_splashlib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pyi_win32_utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\crypt.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\ioapi.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\unzip.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\zlib\README">
+      <Filter>zlib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
