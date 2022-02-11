@@ -1,3 +1,7 @@
 /Debug
+/DebugW
+/Release
+/ReleaseW
+/x64
 /.vs
 /*.user
